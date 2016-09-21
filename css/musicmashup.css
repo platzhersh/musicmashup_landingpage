@@ -8,12 +8,14 @@ body {
 	margin-top: 50px;
 	margin-bottom: 50px;
 	background: none;
+
 }
 h1{
 		color: #ffffff;
 }
 h4 {
 	color:rgba(255,255,255,0.84);
+	font-weight: 300;
 }
 
 .logo {
@@ -22,10 +24,14 @@ h4 {
 }
 
 .full {
-  background: url(../img/MusicMashUpLanding.png) no-repeat center center fixed; 
-  -webkit-background-size: contain;
-  -moz-background-size: contain;
-  -o-background-size: contain;
-  background-size: contain;
+  background: url(../img/background-landing.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   background-color: rgba(244,67,54,0.7);
+	height:100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
